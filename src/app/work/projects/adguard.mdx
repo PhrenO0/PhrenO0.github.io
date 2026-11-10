@@ -1,0 +1,72 @@
+---
+title: "AdGuard, 화장품 광고 심의 AI"
+publishedAt: "2026-11-07"
+summary: "위반 판정에서 멈추지 않고, 바로 쓸 수 있는 대체 문구와 재검증까지 이어지게 만든 광고 심의 서비스"
+images:
+  - "/images/w/adguard-1.jpg"
+link: "https://github.com/PhrenO0/MS_AI_2nd_Adguard"
+---
+
+<Row gap="8" wrap marginBottom="8">
+  <Tag size="l" scheme="neutral" label="2026 상반기 · Microsoft AI School 9기 2차" />
+  <Tag size="l" scheme="brand" label="팀장" />
+  <Tag size="l" scheme="neutral" label="AI 서비스 기획·개발" />
+</Row>
+
+<Grid fillWidth columns="3" gap="12" marginTop="24" marginBottom="8">
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">1,069</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">의미 단위로 다시 나눈 법령 근거 조각</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">9 / 10</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">내부 통합 테스트 정확 처리</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">24 / 25</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">규칙 엔진 테스트 정확</Text>
+  </Card>
+</Grid>
+
+## 맥락
+
+화장품 광고 문구의 과대·허위 표현을 미리 점검하는 팀 프로젝트였습니다. 기존 방식처럼 위반 여부만 알려주면 마케터는 결국 안전한 문장을 다시 찾느라 <mark>작업이 또 멈춥니다.</mark>
+
+## 한 일
+
+- 팀장으로 서비스 범위를 위반 판정에서 대체 문구 추천과 재검증까지 넓혔습니다.
+- 화장품 관련 법령과 심의 데이터를 모아 검색 기반을 만들었습니다.
+- 규칙 엔진, 근거 검색, 판정, 대안 생성, 재검증으로 이어지는 5단계 흐름을 설계했습니다.
+- 잘려 나간 법령 조항의 맥락을 살리려고 문서를 의미 단위로 다시 나눠 근거 1,069개를 만들었습니다.
+
+## 판단
+
+법령을 일정 길이로 자르자 조항 앞뒤가 끊겨 엉뚱한 근거가 검색됐습니다. 시간이 더 들더라도 <mark>의미 단위로 다시 나누는 쪽</mark>을 택했습니다. 생성된 대체 문구 역시 다시 위험할 수 있어서 마지막에 재검증 단계를 한 번 더 두었습니다.
+
+## 결과
+
+- 의미 단위로 다시 만든 법령 근거 1,069개
+- 규칙 엔진 테스트 25건 중 24건 정확
+- 내부 통합 테스트 10건 중 9건 정확
+
+<Column gap="8" marginTop="16" marginBottom="16">
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="법령을 글자 수로 자르니 조항이 끊겨서 다 다시 쪼갰음" />
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="대체 문구도 위험할 수 있어서 재검증을 끝에 붙임" />
+</Column>
+
+## 남은 것
+
+내부 테스트 정확도는 확인했지만, 실제 마케터가 썼을 때 문구 수정 시간이 얼마나 줄어드는지는 재지 못했습니다. 다음에는 실사용자 테스트를 일정 앞쪽에 넣으려 합니다.
+
+## 쓴 도구
+
+<Row gap="8" wrap>
+  <Tag size="m" scheme="neutral" label="Azure OpenAI" />
+  <Tag size="m" scheme="neutral" label="Azure AI Search" />
+  <Tag size="m" scheme="neutral" label="FastAPI" />
+  <Tag size="m" scheme="neutral" label="Next.js" />
+</Row>
+
+## 직접 보기
+
+- [GitHub 저장소](https://github.com/PhrenO0/MS_AI_2nd_Adguard)

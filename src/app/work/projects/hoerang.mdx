@@ -1,0 +1,71 @@
+---
+title: "회랑, 3D 공간 기억법 학습 서비스"
+publishedAt: "2026-11-06"
+summary: "외울 개념을 광화문 3D 공간에 놓고 걸으며 복습하도록, 좌표 정확도와 이동 동선을 구현한 웹 서비스"
+images:
+  - "/images/w/hoerang-1.jpg"
+link: "https://phreno0.github.io/Mindpalace_Microsoft9ai_Thirdprj-/"
+---
+
+<Row gap="8" wrap marginBottom="8">
+  <Tag size="l" scheme="neutral" label="2026.06 · Microsoft AI School 9기 파이널" />
+  <Tag size="l" scheme="brand" label="7인 팀, 3D 엔진·UI/UX 담당" />
+  <Tag size="l" scheme="neutral" label="프론트엔드·3D" />
+</Row>
+
+<Grid fillWidth columns="3" gap="12" marginTop="24" marginBottom="8">
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">235</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">프론트·3D 저장소 커밋 (팀 내 최다)</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">5곳</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">1인칭으로 걷는 광화문 입구</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">56쪽</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">최종 발표 자료</Text>
+  </Card>
+</Grid>
+
+## 맥락
+
+외워야 할 개념을 3D 공간 속 위치에 두고 직접 걸으며 익히는 7인 팀 프로젝트였습니다. 위치를 단서로 내용을 떠올리려면 개념 마커가 허공에 뜨지 않고, 자연스러운 동선으로 이어져야 했습니다.
+
+## 한 일
+
+- 광화문 일대 입구 5곳을 1인칭으로 걷는 3D 엔진과 화면 UI/UX를 맡았습니다.
+- 실내 가구 3D 모델의 좌표를 맞춰 개념 마커가 정확한 자리에 놓이게 했습니다.
+- 의미가 가까운 개념은 공간에서도 가깝게 두고, 마커 순서를 걷는 순서와 맞췄습니다.
+- 시점이 바뀔 때 카메라가 끊기지 않도록 다듬었습니다.
+
+## 판단
+
+기억의 궁전 방식에서는 그래픽을 예쁘게 만드는 일보다 <mark>개념이 놓인 위치를 정확히 기억하게 하는 일</mark>이 먼저라고 봤습니다. 그래서 렌더링 장식보다 좌표 정확도와 동선 일치에 개발 시간을 썼습니다. GraphRAG와 검색은 팀원이 맡았고, 저는 그 결과가 공간에 놓이는 방식을 책임졌습니다.
+
+## 결과
+
+- 프론트·3D 저장소 커밋 235개 (팀 내 최다)
+- 한국사 교안으로 작동하는 데모 공개, 56쪽 최종 발표
+
+<Column gap="8" marginTop="16" marginBottom="16">
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="화질보다 가구 위에 마커 정확히 꽂는 게 먼저였음" />
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="마커 번호 = 걷는 순서" />
+</Column>
+
+## 남은 것
+
+데모는 완성했지만, 텍스트로만 공부했을 때보다 기억이 얼마나 더 오래 남는지는 비교해 보지 못했습니다.
+
+## 쓴 도구
+
+<Row gap="8" wrap>
+  <Tag size="m" scheme="neutral" label="Three.js" />
+  <Tag size="m" scheme="neutral" label="React" />
+  <Tag size="m" scheme="neutral" label="FastAPI" />
+  <Tag size="m" scheme="neutral" label="GraphRAG (팀원 담당)" />
+</Row>
+
+## 직접 보기
+
+- [데모 보기](https://phreno0.github.io/Mindpalace_Microsoft9ai_Thirdprj-/)

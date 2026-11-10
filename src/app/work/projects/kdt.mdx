@@ -1,0 +1,63 @@
+---
+title: "오늘도 안녕, KDT 해커톤"
+publishedAt: "2026-11-02"
+summary: "데이터셋 라벨이 섞인 걸 발견하고, 사람마다 기준을 따로 두는 판정으로 바꿔 오차를 줄인 해커톤"
+images:
+  - "/images/w/kdt-1.jpg"
+link: "https://www.youtube.com/watch?v=Gz7VHb7DJxU"
+---
+
+<Row gap="8" wrap marginBottom="8">
+  <Tag size="l" scheme="neutral" label="2026.07 – 08" />
+  <Tag size="l" scheme="brand" label="6인 팀 팀장·PM" />
+  <Tag size="l" scheme="neutral" label="AI 서비스 기획" />
+</Row>
+
+<Grid fillWidth columns="3" gap="12" marginTop="24" marginBottom="8">
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">0.29 → 0.05</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">개인 기준 판정 전환 후 비대칭 오차</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">+8</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">설문 24명 NPS</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">예선 탈락</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">제8회 K-디지털 트레이닝 해커톤</Text>
+  </Card>
+</Grid>
+
+## 맥락
+
+6인 팀 ‘고민중독’의 팀장 겸 PM으로 참여한 해커톤입니다. 얼굴 데이터를 다루던 중 기본 데이터셋의 라벨이 섞여 있는 문제를 발견했고, 사람마다 기준이 다른 상황에서 하나의 잣대로 판정하면 오차가 컸습니다.
+
+## 한 일
+
+- 팀의 일정과 문제 정의를 맡아 판정 기준 전환을 이끌었습니다.
+- 데이터셋의 라벨 혼재 상태를 확인하고 오차의 원인을 짚었습니다.
+- 모두에게 같은 기준을 대는 대신, 사용자마다 기준점을 따로 두는 판정 방식으로 바꿨습니다.
+- 잠재 사용자 24명에게 설문을 돌려 필요성과 NPS를 확인했습니다.
+
+## 판단
+
+라벨이 섞인 데이터로 모델만 계속 학습시켜서는 개인차에서 오는 오차를 잡을 수 없다고 봤습니다. 그래서 <mark>사람마다 기준을 먼저 잡고</mark> 그 기준에서의 변화를 읽는 쪽으로 방향을 틀었습니다.
+
+## 결과
+
+- 비대칭 오차 0.29에서 0.05로 감소
+- 설문 24명, NPS +8
+- 예선 탈락
+
+<Column gap="8" marginTop="16" marginBottom="16">
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="데이터셋 라벨부터 섞여 있었음" />
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="오차는 잡았는데 예선은 탈락" />
+</Column>
+
+## 남은 것
+
+오차는 줄였지만 예선에서 탈락했고, 설문 규모도 작았습니다. 기술 개선이 사용자의 하루에 어떤 차이를 만드는지 화면으로 더 직관적으로 보여줬어야 했습니다.
+
+## 직접 보기
+
+- [팀 소개 영상](https://www.youtube.com/watch?v=Gz7VHb7DJxU)

@@ -1,0 +1,67 @@
+---
+title: "온라인 잔디광장, 3D 캠퍼스 멀티플레이 웹"
+publishedAt: "2026-11-05"
+summary: "중앙대 캠퍼스를 3D 웹으로 옮겨 함께 걷는 공간. 배포 후 작은 숫자를 보고 다음에 바꿀 점을 정리한 개인 작업"
+images:
+  - "/images/w/jandi-1.jpg"
+link: "https://jandi.cau-online.workers.dev/"
+---
+
+<Row gap="8" wrap marginBottom="8">
+  <Tag size="l" scheme="neutral" label="2026.10 – 진행 중" />
+  <Tag size="l" scheme="brand" label="개인 기획·구현" />
+  <Tag size="l" scheme="neutral" label="바이브코딩·웹" />
+</Row>
+
+<Grid fillWidth columns="2" gap="12" marginTop="24" marginBottom="8">
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">5–7명</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">관찰된 동시 접속</Text>
+  </Card>
+  <Card fillWidth direction="column" padding="20" radius="l" gap="4" border="neutral-alpha-weak" background="surface">
+    <Text variant="display-strong-xs" onBackground="brand-strong">6명</Text>
+    <Text variant="body-default-s" onBackground="neutral-weak">사인업 키오스크 클릭 (유니크)</Text>
+  </Card>
+</Grid>
+
+## 맥락
+
+GSA 활동과 이어서, 학우들이 온라인에서도 영신관 앞 잔디광장 같은 캠퍼스 공간을 함께 걸으며 놀 수 있는 곳을 만들고 싶었습니다. 그 공간 안에서 구글 학생 혜택 안내까지 자연스럽게 이어지게 하려 했습니다.
+
+## 한 일
+
+- 실제 지도 데이터로 중앙대 건물 배치를 맞춘 3D 웹 공간을 혼자 기획했습니다.
+- AI 코딩 도구로 멀티플레이 이동, 채팅, 트램펄린 미니게임을 구현했습니다.
+- 단과대 대항 뽀모도로 ‘공부하기’와 사인업 키오스크를 공간 안에 넣었습니다.
+- Cloudflare Workers에 올려 링크 하나로 바로 들어올 수 있게 했습니다.
+
+## 판단
+
+익숙한 건물이 실제 위치에 있어야 학우들이 알아보고 머문다고 봐서 지도 데이터를 기준으로 공간을 짰습니다. 홍보 링크를 따로 던지기보다 노는 공간 안에 키오스크를 두는 쪽을 택했습니다.
+
+## 결과
+
+- Cloudflare Workers 기반 멀티플레이 3D 캠퍼스 배포
+- 관찰된 동시 접속 5~7명, 사인업 키오스크 클릭 유니크 6명
+
+<Column gap="8" marginTop="16" marginBottom="16">
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="다 만들었는데 키오스크 클릭은 6명뿐이었음" />
+  <Feedback variant="success" icon="sparkle" title="작업 메모" description="기능보다 왜 들어와야 하는지가 먼저였다" />
+</Column>
+
+## 남은 것
+
+공간을 만드는 데 힘을 쏟았지만 숫자는 작았습니다. <mark>기능을 더하기 전에, 처음 링크를 누를 이유부터 설계</mark>해야 한다는 걸 배웠습니다.
+
+## 쓴 도구
+
+<Row gap="8" wrap>
+  <Tag size="m" scheme="neutral" label="Three.js" />
+  <Tag size="m" scheme="neutral" label="Cloudflare Workers" />
+  <Tag size="m" scheme="neutral" label="OpenStreetMap" />
+  <Tag size="m" scheme="neutral" label="AI 코딩 도구" />
+</Row>
+
+## 직접 보기
+
+- [접속하기](https://jandi.cau-online.workers.dev/)
