@@ -46,26 +46,21 @@ const home: Home = {
   label: "홈",
   title: "오준상 — 포트폴리오",
   description: "만든 것이 실제로 쓰이는지 확인하는 기획자 오준상의 포트폴리오",
-  headline: <>만든 것이 실제로 쓰이는가를 끝까지 묻습니다</>,
+  headline: <>쓰이는 걸 만듭니다</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">GSA 중앙대</strong>{" "}
+        <strong className="ml-4">GSA</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Top Performance Team 2위
+          전국 2위
         </Text>
       </Row>
     ),
     href: "/work/gsa",
   },
-  subline: (
-    <>
-      사람들이 결과물 앞에서 멈추는 이유를 찾고, 다음 행동으로 이어질 흐름을 설계하는 <Text as="span" size="xl" weight="strong">오준상</Text>입니다.
-      <br /> 필요한 만큼 직접 만들어 실제 반응과 숫자로 확인합니다.
-    </>
-  ),
+  subline: <>서비스 기획 · 콘텐츠 마케팅 · AI 프로토타이핑</>,
 };
 
 const about: About = {

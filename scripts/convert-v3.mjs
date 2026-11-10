@@ -18,6 +18,16 @@ const slides = {
   kdt: ["kdt-1.jpg"],
 };
 // publishedAt drives ordering on the site (newest first) -> map from v3 `order`
+const short = {
+  gsa: ["GSA 중앙대 캠페인", "합산 조회 48만 회, 전국 2위"],
+  toss: ["토스 포리너 브릿지 크루", "일본인 관광객 콘텐츠 26건, 실사 중심으로 전환"],
+  adguard: ["AdGuard", "광고 심의부터 대체 문구 추천까지"],
+  hoerang: ["회랑", "걸으며 외우는 3D 학습 공간"],
+  jandi: ["온라인 잔디광장", "중앙대 캠퍼스를 3D 웹으로"],
+  ads: ["AI 광고 영상", "A.INUS 본상, 구리시 우수상"],
+  sightcheck: ["시야체크 AI", "공연 좌석 시야를 3D로 비교"],
+  kdt: ["오늘도 안녕", "KDT 해커톤, 판정 오차 0.29 → 0.05"],
+};
 const base = new Date("2026-11-10");
 
 const esc = (s) => s.replace(/"/g, "&quot;");
@@ -59,9 +69,9 @@ for (const f of fs.readdirSync(src)) {
   const linksMd = d.links.length ? `\n## 직접 보기\n\n${d.links.map((l) => `- [${l.text}](${l.href})`).join("\n")}\n` : "";
 
   const out = `---
-title: "${d.title.replace(/"/g, '\\"')}"
+title: "${short[slug][0]}"
 publishedAt: "${date}"
-summary: "${d.oneLine.replace(/"/g, '\\"')}"
+summary: "${short[slug][1]}"
 images:
 ${slides[slug].map((s) => `  - "/images/w/${s}"`).join("\n")}
 ${link ? `link: "${link}"\n` : ""}---
