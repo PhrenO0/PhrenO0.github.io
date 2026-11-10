@@ -46,9 +46,9 @@ const home: Home = {
   label: "홈",
   title: "오준상 — 포트폴리오",
   description: "만든 것이 실제로 쓰이는지 확인하는 기획자 오준상의 포트폴리오",
-  headline: <>쓰이는 걸 만듭니다</>,
+  headline: <>사람이 멈추는 지점을 봅니다</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">GSA</strong>{" "}
