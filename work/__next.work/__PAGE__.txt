@@ -1,0 +1,31 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/2zoouv3xfaess.js"
+4:"/_next/static/chunks/23ivzc49pz_l5.js"
+5:"/_next/static/chunks/0n81hq9zskdd-.js"
+6:"/_next/static/chunks/0oe4ngc0emhrj.js"
+7:"/_next/static/chunks/0g-k0cyotjq96.js"
+8:"/_next/static/chunks/1_i0f9glcna5g.js"
+9:I[39756,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[37457,["$3","$4","$5","$6","$7","$8"],"default"]
+f:I[74855,["$3","$4","$5","$6","$7","$8"],"ProjectCard"]
+10:I[97367,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[97367,["$3","$4","$5","$6","$7","$8"],"$14"]
+16:"MetadataBoundary"
+17:I[97367,["$3","$4","$5","$6","$7","$8"],"$16"]
+18:I[27201,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"display-flex position-relative pt-24 flex-column fill-width max-width-m ","style":{},"children":[["$","script",null,{"id":"schema-webPage-/work","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://phreno0.github.io/work\",\"sameAs\":[],\"headline\":\"프로젝트 – 오준상\",\"description\":\"오준상이 기획하고 만든 프로젝트\",\"image\":\"https://phreno0.github.io/api/og/generate?title=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81\",\"author\":{\"@type\":\"Person\",\"name\":\"오준상\",\"url\":\"https://phreno0.github.io/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://phreno0.github.io/images/avatar.svg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-l","style":{"textAlign":"center","textWrap":"balance"},"children":"프로젝트 – 오준상"}],["$","div",null,{"className":"display-flex position-relative px-l mb-40 g-xl flex-column min-width-0 fill-width ","style":{},"children":[["$","$Lf","gsa",{"priority":true,"href":"/work/gsa","images":["/images/w/gsa-1-v2.jpg","/images/w/gsa-2.jpg","/images/w/gsa-3-v2.jpg"],"title":"GSA 중앙대 캠페인","description":"합산 조회 48만 회, 전국 2위","hasContent":true,"avatars":[],"link":""}],["$","$Lf","toss",{"priority":true,"href":"/work/toss","images":["/images/w/toss-1.jpg","/images/w/toss-2.jpg"],"title":"토스 포리너 브릿지 크루","description":"일본인 관광객 콘텐츠 26건, 실사 중심으로 전환","hasContent":true,"avatars":[],"link":""}],["$","$Lf","adguard",{"priority":false,"href":"/work/adguard","images":["/images/w/adguard-1.jpg"],"title":"AdGuard","description":"광고 심의부터 대체 문구 추천까지","hasContent":true,"avatars":[],"link":"https://github.com/PhrenO0/MS_AI_2nd_Adguard"}],["$","$Lf","hoerang",{"priority":false,"href":"/work/hoerang","images":["/images/w/hoerang-1.jpg"],"title":"회랑","description":"걸으며 외우는 3D 학습 공간","hasContent":true,"avatars":[],"link":"https://phreno0.github.io/Mindpalace_Microsoft9ai_Thirdprj-/"}],["$","$Lf","jandi",{"priority":false,"href":"/work/jandi","images":["/images/w/jandi-1.jpg"],"title":"온라인 잔디광장","description":"중앙대 캠퍼스를 3D 웹으로","hasContent":true,"avatars":[],"link":"https://jandi.cau-online.workers.dev/"}],["$","$Lf","ads",{"priority":false,"href":"/work/ads","images":["/images/w/ads-1.jpg","/images/w/ads-2.jpg","/images/w/ads-3.jpg"],"title":"AI 광고 영상","description":"A.INUS 본상, 구리시 우수상","hasContent":true,"avatars":[],"link":""}],["$","$Lf","sightcheck",{"priority":false,"href":"/work/sightcheck","images":["/images/w/sightcheck-1.jpg"],"title":"시야체크 AI","description":"공연 좌석 시야를 3D로 비교","hasContent":true,"avatars":[],"link":"https://github.com/PhrenO0/sightcheck-ai"}],["$","$Lf","kdt",{"priority":false,"href":"/work/kdt","images":["/images/w/kdt-1.jpg"],"title":"오늘도 안녕","description":"KDT 해커톤, 판정 오차 0.29 → 0.05","hasContent":true,"avatars":[],"link":"https://www.youtube.com/watch?v=Gz7VHb7DJxU"}]]}]]}],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$d"}}]]
+1:[["children",{"s":"work","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"프로젝트 – 오준상"}],["$","meta","1",{"name":"description","content":"오준상이 기획하고 만든 프로젝트"}],["$","link","2",{"rel":"canonical","href":"https://phreno0.github.io/work/"}],["$","meta","3",{"property":"og:title","content":"프로젝트 – 오준상"}],["$","meta","4",{"property":"og:description","content":"오준상이 기획하고 만든 프로젝트"}],["$","meta","5",{"property":"og:url","content":"https://phreno0.github.io/work/"}],["$","meta","6",{"property":"og:image","content":"https://phreno0.github.io/api/og/generate?title=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81"}],["$","meta","7",{"property":"og:image:alt","content":"프로젝트 – 오준상"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"프로젝트 – 오준상"}],["$","meta","11",{"name":"twitter:description","content":"오준상이 기획하고 만든 프로젝트"}],["$","meta","12",{"name":"twitter:image","content":"https://phreno0.github.io/api/og/generate?title=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81"}],["$","link","13",{"rel":"icon","href":"/favicon.ico?favicon.2d94g_gtj9-dr.ico","sizes":"120x120","type":"image/x-icon"}],["$","$L18","14",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$d"}},"a":"$@1a","u":"$@1b","b":"XDiw5L4DzZ2YtAEJOVTRl"}
+12:null
+1b:true
+d:300
+d:C
+1a:0
+b:"$undefined"
+19:"$undefined"
+13:"$undefined"

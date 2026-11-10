@@ -1,0 +1,32 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/2zoouv3xfaess.js"
+4:"/_next/static/chunks/23ivzc49pz_l5.js"
+5:"/_next/static/chunks/0n81hq9zskdd-.js"
+6:"/_next/static/chunks/0oe4ngc0emhrj.js"
+7:"/_next/static/chunks/0g-k0cyotjq96.js"
+8:"/_next/static/chunks/1_i0f9glcna5g.js"
+9:I[39756,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[37457,["$3","$4","$5","$6","$7","$8"],"default"]
+f:"/_next/static/chunks/3sn935y3aa3hr.js"
+10:I[11217,["$3","$4","$5","$6","$7","$8","$f"],"default"]
+11:I[97367,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[97367,["$3","$4","$5","$6","$7","$8"],"$15"]
+17:"MetadataBoundary"
+18:I[97367,["$3","$4","$5","$6","$7","$8"],"$17"]
+19:I[27201,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"display-flex position-relative fill-width max-width-l ","style":{},"children":[["$","script",null,{"id":"schema-webPage-/gallery","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://phreno0.github.io/gallery\",\"sameAs\":[],\"headline\":\"작업물 – 오준상\",\"description\":\"캠페인과 광고 작업에서 만든 이미지\",\"image\":\"https://phreno0.github.io/api/og/generate?title=%EC%9E%91%EC%97%85%EB%AC%BC%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81\",\"author\":{\"@type\":\"Person\",\"name\":\"오준상\",\"url\":\"https://phreno0.github.io/gallery\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://phreno0.github.io/images/avatar.svg\"}}}"}}],["$","$L10",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/3sn935y3aa3hr.js","async":true}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}],"p":"$@14","v":null,"s":"$d"}}]]
+1:[["children",{"s":"gallery","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L18",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"작업물 – 오준상"}],["$","meta","1",{"name":"description","content":"캠페인과 광고 작업에서 만든 이미지"}],["$","link","2",{"rel":"canonical","href":"https://phreno0.github.io/gallery/"}],["$","meta","3",{"property":"og:title","content":"작업물 – 오준상"}],["$","meta","4",{"property":"og:description","content":"캠페인과 광고 작업에서 만든 이미지"}],["$","meta","5",{"property":"og:url","content":"https://phreno0.github.io/gallery/"}],["$","meta","6",{"property":"og:image","content":"https://phreno0.github.io/api/og/generate?title=%EC%9E%91%EC%97%85%EB%AC%BC%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81"}],["$","meta","7",{"property":"og:image:alt","content":"작업물 – 오준상"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"작업물 – 오준상"}],["$","meta","11",{"name":"twitter:description","content":"캠페인과 광고 작업에서 만든 이미지"}],["$","meta","12",{"name":"twitter:image","content":"https://phreno0.github.io/api/og/generate?title=%EC%9E%91%EC%97%85%EB%AC%BC%20%E2%80%93%20%EC%98%A4%EC%A4%80%EC%83%81"}],["$","link","13",{"rel":"icon","href":"/favicon.ico?favicon.2d94g_gtj9-dr.ico","sizes":"120x120","type":"image/x-icon"}],["$","$L19","14",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$d"}},"a":"$@1b","u":"$@1c","b":"XDiw5L4DzZ2YtAEJOVTRl"}
+13:null
+1c:true
+d:300
+d:C
+1b:0
+b:"$undefined"
+1a:"$undefined"
+14:"$undefined"

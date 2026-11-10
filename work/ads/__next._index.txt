@@ -1,0 +1,73 @@
+1:"$Sreact.fragment"
+3:"/_next/static/chunks/2zoouv3xfaess.js"
+4:"/_next/static/chunks/23ivzc49pz_l5.js"
+5:"/_next/static/chunks/0n81hq9zskdd-.js"
+6:"/_next/static/chunks/0oe4ngc0emhrj.js"
+7:"/_next/static/chunks/0g-k0cyotjq96.js"
+8:"/_next/static/chunks/1_i0f9glcna5g.js"
+9:I[30824,["$3","$4","$5","$6","$7","$8"],"Providers"]
+a:I[21247,["$3","$4","$5","$6","$7","$8"],"ClientFlex"]
+b:I[21971,["$3","$4","$5","$6","$7","$8"],"RevealFx"]
+c:I[94412,["$3","$4","$5","$6","$7","$8"],"Background"]
+:HL["/_next/static/chunks/0zvjbdzhy7z56.css","style"]
+:HL["/_next/static/chunks/1kbsmdsj5qx70.css","style"]
+:HL["/_next/static/chunks/1-7gd7s9difj-.css","style"]
+:HL["/_next/static/chunks/0-3xvlt-qcoag.css","style"]
+:HL["https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css","style"]
+2:T780,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'light';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"blue","accent":"cyan","neutral":"gray","solid":"contrast","solid-style":"flat","border":"conservative","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme || defaultTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            12:X
+0:{"t":{"t":{"s":"","h":16,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0zvjbdzhy7z56.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1kbsmdsj5qx70.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/1-7gd7s9difj-.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/_next/static/chunks/0-3xvlt-qcoag.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2zoouv3xfaess.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/23ivzc49pz_l5.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/0n81hq9zskdd-.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/0oe4ngc0emhrj.js","async":true}],["$","script","script-4",{"src":"/_next/static/chunks/0g-k0cyotjq96.js","async":true}],["$","script","script-5",{"src":"/_next/static/chunks/1_i0f9glcna5g.js","async":true}]],["$","html",null,{"className":"display-flex position-relative min-width-0 fill-width Ifi_Dq_variable B2UTAq_variable GC7HaW_variable qcY_rq_variable ","style":{},"suppressHydrationWarning":true,"lang":"ko","children":[["$","head",null,{"children":[["$","link",null,{"rel":"stylesheet","href":"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"}],["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","$L9",null,{"children":["$","$La",null,{"style":{"minHeight":"100vh"},"direction":"column","as":"body","background":"page","fillWidth":true,"margin":"0","padding":"0","horizontal":"center","children":[["$","$Lb",null,{"fill":true,"position":"absolute","children":["$","$Lc",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":true,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":20,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],"$Ld","$Le","$Lf","$L10"]}]}]]}]]}],"p":"$@11","v":null,"s":"$12"}}},"a":"$@13","u":"$@14","b":"XDiw5L4DzZ2YtAEJOVTRl"}
+15:I[2971,["$3","$4","$5","$6","$7","$8"],"Header"]
+16:I[1166,["$3","$4","$5","$6","$7","$8"],"RouteGuard"]
+17:I[39756,["$3","$4","$5","$6","$7","$8"],"default"]
+18:I[37457,["$3","$4","$5","$6","$7","$8"],"default"]
+19:I[24379,["$3","$4","$5","$6","$7","$8"],"SmartLink"]
+1a:I[98229,["$3","$4","$5","$6","$7","$8"],"IconButton"]
+d:["$","div",null,{"className":"display-flex position-relative min-width-0 fill-width s-flex-hide xs-flex-hide","style":{"minHeight":"var(--static-space-16)"}}]
+e:["$","$L15",null,{}]
+f:["$","main",null,{"className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width z-index-0 ","style":{},"children":["$","div",null,{"className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"minHeight":"var(--static-space-0)"},"children":["$","$L16",null,{"children":["$","$L17",null,{"parallelRouterKey":"children","template":["$","$L18",null,{}],"notFound":[["$","section",null,{"className":"display-flex position-relative pb-160 flex-column center fill min-height-0 min-width-0 ","style":{},"children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":"The page you are looking for does not exist."}]]}],[]]}]}]}]}]
+10:["$","footer",null,{"className":"display-flex position-relative p-8 justify-center min-width-0 fill-width s-flex-column","style":{},"children":[["$","div",null,{"className":"display-flex position-relative px-16 py-8 g-16 justify-between align-center fill-width max-width-m DkSkqG_mobile s-flex-column s-align-center xs-align-center s-align-center xs-align-center","style":{},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{},"children":"오준상"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":["/ Build your portfolio with"," ",["$","$L19",null,{"href":"https://once-ui.com/products/magic-portfolio","children":"Once UI"}]]}]]}],["$","div",null,{"className":"display-flex position-relative g-16 ","style":{},"children":[["$","$L1a","GitHub",{"href":"https://github.com/PhrenO0","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L1a","Threads",{"href":"https://www.threads.com/@by.phren","icon":"threads","tooltip":"Threads","size":"s","variant":"ghost"}],["$","$L1a","Email",{"href":"mailto:phren0219@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","div",null,{"className":"display-flex position-relative flex-hide s-flex-show xs-flex-show","style":{"height":"var(--static-space-80)"}}]]}]
+12:300
+14:true
+12:C
+13:0
+11:"$undefined"

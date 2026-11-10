@@ -1,0 +1,30 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/2zoouv3xfaess.js"
+4:"/_next/static/chunks/23ivzc49pz_l5.js"
+5:"/_next/static/chunks/0n81hq9zskdd-.js"
+6:"/_next/static/chunks/0oe4ngc0emhrj.js"
+7:"/_next/static/chunks/0g-k0cyotjq96.js"
+8:"/_next/static/chunks/1_i0f9glcna5g.js"
+9:I[39756,["$3","$4","$5","$6","$7","$8"],"default"]
+a:I[37457,["$3","$4","$5","$6","$7","$8"],"default"]
+f:I[97367,["$3","$4","$5","$6","$7","$8"],"OutletBoundary"]
+10:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$3","$4","$5","$6","$7","$8"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$3","$4","$5","$6","$7","$8"],"$15"]
+17:I[27201,["$3","$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","section",null,{"className":"display-flex position-relative pb-160 flex-column center fill min-height-0 min-width-0 ","style":{},"children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{},"children":"The page you are looking for does not exist."}]]}],null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":null,"s":"$d"}}]]
+1:[["children",{"s":"/_not-found","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, viewport-fit=cover"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"오준상 — 포트폴리오"}],["$","meta","1",{"name":"description","content":"만든 것이 실제로 쓰이는지 확인하는 기획자 오준상의 포트폴리오"}],["$","meta","2",{"property":"og:title","content":"오준상 — 포트폴리오"}],["$","meta","3",{"property":"og:description","content":"만든 것이 실제로 쓰이는지 확인하는 기획자 오준상의 포트폴리오"}],["$","meta","4",{"property":"og:url","content":"https://phreno0.github.io/"}],["$","meta","5",{"property":"og:image","content":"https://phreno0.github.io/images/og/home.jpg"}],["$","meta","6",{"property":"og:image:alt","content":"오준상 — 포트폴리오"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"오준상 — 포트폴리오"}],["$","meta","10",{"name":"twitter:description","content":"만든 것이 실제로 쓰이는지 확인하는 기획자 오준상의 포트폴리오"}],["$","meta","11",{"name":"twitter:image","content":"https://phreno0.github.io/images/og/home.jpg"}],["$","link","12",{"rel":"icon","href":"/favicon.ico?favicon.2d94g_gtj9-dr.ico","sizes":"120x120","type":"image/x-icon"}],["$","$L17","13",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@18","v":null,"s":"$d"}},"a":"$@19","u":"$@1a","b":"XDiw5L4DzZ2YtAEJOVTRl"}
+11:null
+1a:true
+d:300
+d:C
+19:0
+b:"$undefined"
+18:"$undefined"
+12:"$undefined"
