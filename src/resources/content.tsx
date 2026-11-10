@@ -232,7 +232,7 @@ const gallery: Gallery = {
     { src: "/images/p/ainus.jpg", alt: "Every Masterpiece Needs Wings", orientation: "horizontal" },
     { src: "/images/p/toss-1.jpg", alt: "TOSSTO 카드뉴스", orientation: "vertical" },
     { src: "/images/p/musinsa.jpg", alt: "피드백샌드백 키 비주얼", orientation: "horizontal" },
-    { src: "/images/p/gsa-game.png", alt: "게임 공모전 포스터", orientation: "vertical" },
+    { src: "/images/p/gsa-game.jpg", alt: "게임 공모전 포스터", orientation: "vertical" },
     { src: "/images/p/toss-banner.png", alt: "TOSSTO X 배너", orientation: "horizontal" },
     { src: "/images/p/toss-2.jpg", alt: "TOSSTO 카드뉴스", orientation: "vertical" },
     { src: "/images/p/gsa-puang.png", alt: "캠퍼스 마스코트 캠페인", orientation: "horizontal" },
