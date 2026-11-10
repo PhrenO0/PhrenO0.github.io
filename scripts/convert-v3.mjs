@@ -8,7 +8,7 @@ const dst = path.resolve("src/app/work/projects");
 for (const f of fs.readdirSync(dst)) fs.unlinkSync(path.join(dst, f));
 
 const slides = {
-  gsa: ["gsa-1.jpg", "gsa-2.jpg", "gsa-3.jpg"],
+  gsa: ["gsa-1-v2.jpg", "gsa-2.jpg", "gsa-3-v2.jpg"],
   toss: ["toss-1.jpg", "toss-2.jpg"],
   adguard: ["adguard-1.jpg"],
   hoerang: ["hoerang-1.jpg"],
