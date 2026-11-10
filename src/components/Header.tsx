@@ -77,7 +77,7 @@ export const Header = () => {
         fillWidth
         padding="8"
         horizontal="center"
-        data-border="rounded"
+        
         s={{
           position: "fixed",
         }}

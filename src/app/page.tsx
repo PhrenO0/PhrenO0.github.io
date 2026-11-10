@@ -80,7 +80,7 @@ export default function Home() {
           <RevealFx paddingTop="12" delay={400} horizontal="center" paddingLeft="12">
             <Button
               id="about"
-              data-border="rounded"
+              
               href={about.path}
               variant="secondary"
               size="m"

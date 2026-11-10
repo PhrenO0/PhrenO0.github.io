@@ -138,7 +138,7 @@ export default function About() {
                 <Row paddingX="8">Schedule a call</Row>
                 <IconButton
                   href={about.calendar.link}
-                  data-border="rounded"
+                  
                   variant="secondary"
                   icon="chevronRight"
                   aria-label="Schedule a call"
@@ -164,7 +164,7 @@ export default function About() {
                 wrap
                 horizontal="center"
                 fitWidth
-                data-border="rounded"
+                
               >
                 {social
                   .filter((item) => item.essential)

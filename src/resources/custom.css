@@ -76,3 +76,7 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 
 mark { background: var(--brand-alpha-medium); color: var(--neutral-on-background-strong); padding: 0 0.15em; border-radius: 3px; }
 
+
+/* no pill shapes: cap the 'full' radius used by tags, badges, buttons, nav */
+:root, [data-border] { --radius-full: 0.375rem !important; }
+
